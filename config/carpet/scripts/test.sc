@@ -1,0 +1,1 @@
+__on_tick() -> (log('Scarpet is working!'))
