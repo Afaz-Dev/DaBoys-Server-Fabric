@@ -3138,7 +3138,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cow": "2025-03-21 17:17:00 +0800"
+      "minecraft:cow": "2025-03-21 17:17:00 +0800",
+      "minecraft:bee": "2025-04-14 21:33:38 +0800"
     },
     "done": false
   },
@@ -4347,75 +4348,105 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2025-04-14 16:54:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2025-04-14 16:54:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2025-04-14 16:56:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2025-04-14 16:56:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/safely_harvest_honey": {
+    "criteria": {
+      "safely_harvest_honey": "2025-04-14 22:04:00 +0800"
+    },
+    "done": true
+  },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 14:40:40 +0800"
+      "log_spam_fixer": "2025-04-15 00:41:14 +0800"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 14:40:40 +0800"
+      "log_spam_fixer": "2025-04-15 00:41:14 +0800"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 14:40:40 +0800"
+      "log_spam_fixer": "2025-04-15 00:41:14 +0800"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 14:40:40 +0800"
+      "log_spam_fixer": "2025-04-15 00:41:14 +0800"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 14:40:40 +0800"
+      "log_spam_fixer": "2025-04-15 00:41:14 +0800"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 14:40:40 +0800"
+      "log_spam_fixer": "2025-04-15 00:41:14 +0800"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 14:40:40 +0800"
+      "log_spam_fixer": "2025-04-15 00:41:14 +0800"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 14:40:40 +0800"
+      "log_spam_fixer": "2025-04-15 00:41:14 +0800"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 14:40:40 +0800"
+      "log_spam_fixer": "2025-04-15 00:41:14 +0800"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 14:40:40 +0800"
+      "log_spam_fixer": "2025-04-15 00:41:14 +0800"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 14:40:40 +0800"
+      "log_spam_fixer": "2025-04-15 00:41:14 +0800"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 14:40:40 +0800"
+      "log_spam_fixer": "2025-04-15 00:41:14 +0800"
     },
     "done": false
   },
