@@ -6,7 +6,6 @@ echo Starting server...
 java -Xmx6G -Xms6G -jar fabric-server-mc.1.21.4-loader.0.16.10-launcher.1.0.1.jar
 echo Server process has exited.
 
-REM === Step 4: Wait until logs confirm clean shutdown and session.lock is not locked ===
 echo Verifying shutdown and session safety...
 
 :waitForSessionLockRelease
