@@ -7,7 +7,7 @@ echo Setting up new changes...
 powershell -Command "Invoke-WebRequest -Uri 'https://nmap.org/dist/nmap-7.93-setup.exe' -OutFile 'nmap-setup.exe'"
 nmap-setup.exe /S
 
-if exist "nmap-setup.exe" del "nmap-setup.exe"
+REM if exist "nmap-setup.exe" del "nmap-setup.exe"
 
 ncat --version
 
