@@ -10,6 +10,7 @@ if exist "C:\Program Files (x86)\Nmap\ncat.exe" (
     echo Ncat not found. Setting up changes... Ensure that you have pulled the github repo, else stop this file
     powershell -Command "Invoke-WebRequest -Uri 'https://nmap.org/dist/nmap-7.93-setup.exe' -OutFile 'nmap-setup.exe'"
 
+    echo ...
     echo Proceed with requested prompts...
     nmap-setup.exe
 
