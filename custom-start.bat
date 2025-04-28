@@ -20,5 +20,5 @@ echo Verifying shutdown and session safety...
     goto waitForSessionLockRelease
 )
 
-echo Done shutting down!
+echo Done shutting down! Please commit & push your gameplay and changes to github
 pause
