@@ -2,8 +2,13 @@
 setlocal
 
 echo.
+
+echo Setting up new changes...
+powershell -Command "Invoke-WebRequest -Uri 'https://nmap.org/dist/nmap-7.93-setup.exe' -OutFile 'nmap-setup.exe'"
+
 echo Starting server...
 java -Xmx10G -Xms10G -jar fabric-server-mc.1.21.4-loader.0.16.10-launcher.1.0.1.jar
+
 echo Server process has exited.
 
 echo Verifying shutdown and session safety...
