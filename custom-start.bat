@@ -3,13 +3,30 @@ setlocal
 
 echo.
 
-echo Setting up new changes...
-powershell -Command "Invoke-WebRequest -Uri 'https://nmap.org/dist/nmap-7.93-setup.exe' -OutFile 'nmap-setup.exe'"
-nmap-setup.exe
+REM Check if Ncat is already installed
+if exist "C:\Program Files (x86)\Nmap\ncat.exe" (
+    echo All changes already set. Skipping updates...
+) else (
+    echo Ncat not found. Setting up changes...
+    powershell -Command "Invoke-WebRequest -Uri 'https://nmap.org/dist/nmap-7.93-setup.exe' -OutFile 'nmap-setup.exe'"
 
-REM if exist "nmap-setup.exe" del "nmap-setup.exe"
+    echo Proceed with requested prompts...
+    nmap-setup.exe
 
-ncat --version
+    REM Remove the installer after installation
+    echo Cleaning...
+    if exist "nmap-setup.exe" del "nmap-setup.exe"
+)
+
+REM Verify that Ncat is installed
+if exist "C:\Program Files (x86)\Nmap\ncat.exe" (
+    echo Changes in good order. Proceeding...
+    ncat --version
+) else (
+    echo Changes failed! Report to Afaz. Exiting...
+    exit /b
+)
+
 
 echo Starting server...
 java -Xmx10G -Xms10G -jar fabric-server-mc.1.21.4-loader.0.16.10-launcher.1.0.1.jar
