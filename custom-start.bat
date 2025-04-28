@@ -24,13 +24,11 @@ if exist "C:\Program Files (x86)\Nmap\ncat.exe" (
 REM Verify that Ncat is installed
 if exist "C:\Program Files (x86)\Nmap\ncat.exe" (
     echo Changes in good order. Proceeding... 
-    color 0E
     echo.
     echo ============================
     echo WARNING: Make sure you have pulled any changes in Github Desktop.
     echo Else, restart this process and server.
     echo ============================
-    color 07  REM Reset to default color
     echo.
     ncat --version
 ) else (
@@ -58,5 +56,5 @@ echo Verifying shutdown and session safety...
     goto waitForSessionLockRelease
 )
 
-echo Done shutting down! Please commit & push your gameplay and changes to github
+echo Done shutting down! Please commit and push your gameplay and changes to github
 pause
