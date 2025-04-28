@@ -7,7 +7,7 @@ REM Check if Ncat is already installed
 if exist "C:\Program Files (x86)\Nmap\ncat.exe" (
     echo All changes already set. Skipping updates... Ensure that you have pulled the github repo
 ) else (
-    echo Ncat not found. Setting up changes... \n Ensure that you have pulled the github repo, else stop this file immediately
+    echo Ncat not found. Setting up changes... Ensure that you have pulled the github repo, else stop this file immediately
     echo ...
     powershell -Command "Invoke-WebRequest -Uri 'https://nmap.org/dist/nmap-7.93-setup.exe' -OutFile 'nmap-setup.exe'"
 
