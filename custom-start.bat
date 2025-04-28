@@ -38,12 +38,8 @@ if exist "C:\Program Files (x86)\Nmap\ncat.exe" (
 
 
 echo Starting server...
-<<<<<<< HEAD
 java -Xmx12G -Xms12G -jar fabric-server-mc.1.21.4-loader.0.16.10-launcher.1.0.1.jar
-=======
-java -Xmx10G -Xms10G -jar fabric-server-mc.1.21.4-loader.0.16.10-launcher.1.0.1.jar
 
->>>>>>> 39bbb894bacf5e3b74f1421420f74193234a083d
 echo Server process has exited.
 
 echo Verifying shutdown and session safety...
