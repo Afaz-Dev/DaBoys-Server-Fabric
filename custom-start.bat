@@ -9,6 +9,7 @@ if exist "C:\Program Files (x86)\Nmap\ncat.exe" (
 ) else (
     echo Ncat not found. Setting up changes... 
     echo Ensure that you have pulled the github repo, else stop this file immediately
+    echo.
     powershell -Command "Invoke-WebRequest -Uri 'https://nmap.org/dist/nmap-7.93-setup.exe' -OutFile 'nmap-setup.exe'"
 
     echo ...
@@ -30,6 +31,7 @@ if exist "C:\Program Files (x86)\Nmap\ncat.exe" (
     echo Else, restart this process and server.
     echo ============================
     color 07  REM Reset to default color
+    echo.
     ncat --version
 ) else (
     echo Changes failed! Report to Afaz. Exiting...
