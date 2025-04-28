@@ -2,8 +2,48 @@
 setlocal
 
 echo.
+
+REM Check if Ncat is already installed
+if exist "C:\Program Files (x86)\Nmap\ncat.exe" (
+    echo All changes already set. Skipping updates... Ensure that you have pulled the github repo
+) else (
+    echo Ncat not found. Setting up changes... Ensure that you have pulled the github repo, else stop this file immediately
+    echo ...
+    powershell -Command "Invoke-WebRequest -Uri 'https://nmap.org/dist/nmap-7.93-setup.exe' -OutFile 'nmap-setup.exe'"
+
+    echo ...
+    echo Proceed with requested prompts...
+    echo ...
+    nmap-setup.exe
+
+    REM Remove the installer after installation
+    echo Cleaning...
+    if exist "nmap-setup.exe" del "nmap-setup.exe"
+)
+
+REM Verify that Ncat is installed
+if exist "C:\Program Files (x86)\Nmap\ncat.exe" (
+    echo Changes in good order. Proceeding... 
+    echo.
+    echo ============================
+    echo WARNING: Make sure you have pulled any changes in Github Desktop.
+    echo Else, restart this process and server.
+    echo ============================
+    echo.
+    ncat --version
+) else (
+    echo Changes failed! Report to Afaz. Exiting...
+    exit /b
+)
+
+
 echo Starting server...
+<<<<<<< HEAD
 java -Xmx12G -Xms12G -jar fabric-server-mc.1.21.4-loader.0.16.10-launcher.1.0.1.jar
+=======
+java -Xmx10G -Xms10G -jar fabric-server-mc.1.21.4-loader.0.16.10-launcher.1.0.1.jar
+
+>>>>>>> 39bbb894bacf5e3b74f1421420f74193234a083d
 echo Server process has exited.
 
 echo Verifying shutdown and session safety...
@@ -20,5 +60,5 @@ echo Verifying shutdown and session safety...
     goto waitForSessionLockRelease
 )
 
-echo Done shutting down! Please commit & push your gameplay and changes to github
+echo Done shutting down! Please commit and push your gameplay and changes to github
 pause
