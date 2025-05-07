@@ -5407,76 +5407,87 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2025-05-07 16:54:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2025-05-07 16:54:48 +0800"
+    },
+    "done": true
+  },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-05-07 00:26:08 +0800"
+      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-05-07 00:26:08 +0800"
+      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-05-07 00:26:08 +0800"
+      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2025-05-07 00:26:12 +0800",
-      "log_spam_fixer": "2025-05-07 00:26:08 +0800"
+      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
     },
-    "done": true
+    "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-05-07 00:26:08 +0800"
+      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-05-07 00:26:08 +0800"
+      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-05-07 00:26:08 +0800"
+      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-05-07 00:26:08 +0800"
+      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-05-07 00:26:08 +0800"
+      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-05-07 00:26:08 +0800"
+      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-05-07 00:26:08 +0800"
+      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-05-07 00:26:08 +0800"
+      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
     },
     "done": false
   },
