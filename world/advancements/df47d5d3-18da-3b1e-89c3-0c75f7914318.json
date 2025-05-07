@@ -5419,77 +5419,53 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "incendium:misc/loot_piglin_village": {
     "criteria": {
-      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
+      "incendium:butcher": "2025-05-07 22:27:00 +0800"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/inventory/sentrys_wrath": {
+  "incendium:infernal_dunes/pipeline/root": {
     "criteria": {
-      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
+      "requirement": "2025-05-07 22:37:15 +0800"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/feed_ghastling": {
+  "minecraft:recipes/food/suspicious_stew_from_pink_tulip": {
     "criteria": {
-      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
+      "has_pink_tulip": "2025-05-07 23:11:42 +0800"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_player_hurt": {
+  "minecraft:recipes/food/suspicious_stew_from_allium": {
     "criteria": {
-      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
+      "has_allium": "2025-05-07 23:11:48 +0800"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/firestorm": {
+  "minecraft:recipes/food/suspicious_stew_from_red_tulip": {
     "criteria": {
-      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
+      "has_red_tulip": "2025-05-07 23:16:21 +0800"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/inventory/firestorm": {
+  "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
     "criteria": {
-      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
+      "has_pink_tulip": "2025-05-07 23:11:42 +0800"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/give_ghastling": {
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
     "criteria": {
-      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
+      "has_allium": "2025-05-07 23:11:48 +0800"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_kill": {
+  "minecraft:recipes/misc/red_dye_from_tulip": {
     "criteria": {
-      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
+      "has_red_flower": "2025-05-07 23:16:21 +0800"
     },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-07 20:04:45 +0800"
-    },
-    "done": false
+    "done": true
   },
   "DataVersion": 4189
 }
