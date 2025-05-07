@@ -5437,7 +5437,19 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
+    "criteria": {
+      "has_pink_tulip": "2025-05-07 23:11:42 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/suspicious_stew_from_allium": {
+    "criteria": {
+      "has_allium": "2025-05-07 23:11:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
     "criteria": {
       "has_allium": "2025-05-07 23:11:48 +0800"
     },
@@ -5446,18 +5458,6 @@
   "minecraft:recipes/food/suspicious_stew_from_red_tulip": {
     "criteria": {
       "has_red_tulip": "2025-05-07 23:16:21 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
-    "criteria": {
-      "has_pink_tulip": "2025-05-07 23:11:42 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/magenta_dye_from_allium": {
-    "criteria": {
-      "has_allium": "2025-05-07 23:11:48 +0800"
     },
     "done": true
   },

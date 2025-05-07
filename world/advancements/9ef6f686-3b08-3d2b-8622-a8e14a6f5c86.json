@@ -5733,6 +5733,30 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/suspicious_stew_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2025-05-07 21:49:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2025-05-07 21:49:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2025-05-07 21:50:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2025-05-07 21:50:46 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/suspicious_stew_from_pink_tulip": {
     "criteria": {
       "has_pink_tulip": "2025-05-07 22:01:25 +0800"
@@ -5751,9 +5775,9 @@
     },
     "done": true
   },
-  "incendium:infernal_dunes/pipeline/root": {
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
     "criteria": {
-      "requirement": "2025-05-07 22:37:14 +0800"
+      "has_coal_ore": "2025-05-07 22:01:52 +0800"
     },
     "done": true
   },
@@ -5763,9 +5787,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+  "incendium:infernal_dunes/pipeline/root": {
     "criteria": {
-      "has_white_tulip": "2025-05-07 21:50:46 +0800"
+      "requirement": "2025-05-07 22:37:14 +0800"
     },
     "done": true
   },
@@ -5775,33 +5799,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/suspicious_stew_from_orange_tulip": {
-    "criteria": {
-      "has_orange_tulip": "2025-05-07 21:49:27 +0800"
-    },
-    "done": true
-  },
   "incendium:infernal_dunes/pipeline/unlimited_power": {
     "criteria": {
       "requirement": "2025-05-07 22:41:31 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/suspicious_stew_from_white_tulip": {
-    "criteria": {
-      "has_white_tulip": "2025-05-07 21:50:46 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
-    "criteria": {
-      "has_orange_tulip": "2025-05-07 21:49:27 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
-    "criteria": {
-      "has_coal_ore": "2025-05-07 22:01:52 +0800"
     },
     "done": true
   },
