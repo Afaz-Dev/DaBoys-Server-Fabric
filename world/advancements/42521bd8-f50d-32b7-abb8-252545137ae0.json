@@ -38,6 +38,7 @@
       "minecraft:snowy_plains": "2025-03-13 22:26:04 +0800",
       "minecraft:dripstone_caves": "2025-03-13 22:22:09 +0800",
       "minecraft:snowy_taiga": "2025-03-13 22:26:12 +0800",
+      "minecraft:old_growth_birch_forest": "2025-05-09 23:42:07 +0800",
       "minecraft:deep_dark": "2025-04-28 12:49:31 +0800",
       "minecraft:grove": "2025-03-14 16:42:55 +0800",
       "minecraft:swamp": "2025-04-27 21:43:01 +0800",
@@ -4661,81 +4662,27 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
   "minecraft:story/cure_zombie_villager": {
     "criteria": {
       "cured_zombie": "2025-05-09 18:42:44 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-05-09 23:37:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-05-09 23:37:44 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2025-05-09 23:38:24 +0800"
     },
     "done": true
   },

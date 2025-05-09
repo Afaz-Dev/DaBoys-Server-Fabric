@@ -6017,117 +6017,9 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-09 18:43:30 +0800"
-    },
-    "done": false
-  },
-  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2025-05-09 17:48:22 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/prismarine": {
     "criteria": {
       "has_prismarine_shard": "2025-05-09 17:25:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sponge": {
-    "criteria": {
-      "has_wet_sponge": "2025-05-09 17:32:26 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
-    "criteria": {
-      "has_prismarine_bricks": "2025-05-09 17:51:11 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/prismarine_wall": {
-    "criteria": {
-      "has_prismarine": "2025-05-09 17:48:22 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2025-05-09 17:48:22 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine_brick": "2025-05-09 17:51:11 +0800"
     },
     "done": true
   },
@@ -6143,15 +6035,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_wet_sponge": "2025-05-09 17:32:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
     "criteria": {
       "has_prismarine": "2025-05-09 17:48:22 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+  "minecraft:recipes/decorations/prismarine_wall": {
     "criteria": {
-      "has_prismarine_brick": "2025-05-09 17:51:11 +0800"
+      "has_prismarine": "2025-05-09 17:48:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2025-05-09 17:48:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2025-05-09 17:48:22 +0800"
     },
     "done": true
   },
@@ -6161,15 +6071,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2025-05-09 17:48:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2025-05-09 17:51:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2025-05-09 17:51:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2025-05-09 17:51:11 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/prismarine_brick_slab": {
     "criteria": {
       "has_prismarine_bricks": "2025-05-09 17:51:11 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/prismarine_slab": {
+  "minecraft:recipes/decorations/magenta_stained_glass_pane": {
     "criteria": {
-      "has_prismarine": "2025-05-09 17:48:22 +0800"
+      "has_glass": "2025-05-09 23:25:22 +0800"
     },
     "done": true
   },
