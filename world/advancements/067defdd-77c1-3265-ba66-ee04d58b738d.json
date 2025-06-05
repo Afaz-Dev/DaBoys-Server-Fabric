@@ -33,6 +33,7 @@
     "criteria": {
       "minecraft:cold_ocean": "2025-05-18 18:06:35 +0800",
       "minecraft:old_growth_pine_taiga": "2025-05-18 18:06:29 +0800",
+      "minecraft:mushroom_fields": "2025-06-06 00:21:10 +0800",
       "minecraft:forest": "2025-05-09 15:33:51 +0800",
       "minecraft:taiga": "2025-05-18 18:06:25 +0800",
       "minecraft:deep_ocean": "2025-05-18 18:22:24 +0800",
@@ -47,11 +48,13 @@
       "minecraft:windswept_hills": "2025-05-20 15:02:16 +0800",
       "minecraft:old_growth_spruce_taiga": "2025-05-20 00:23:57 +0800",
       "minecraft:snowy_beach": "2025-05-20 15:47:34 +0800",
+      "minecraft:deep_lukewarm_ocean": "2025-06-06 00:22:01 +0800",
       "minecraft:badlands": "2025-05-20 15:11:07 +0800",
       "minecraft:flower_forest": "2025-05-18 17:37:48 +0800",
       "minecraft:savanna_plateau": "2025-05-20 15:25:28 +0800",
       "minecraft:beach": "2025-05-18 17:37:24 +0800",
       "minecraft:dark_forest": "2025-05-19 13:04:25 +0800",
+      "minecraft:mangrove_swamp": "2025-06-06 00:31:46 +0800",
       "minecraft:sparse_jungle": "2025-05-20 15:08:15 +0800",
       "minecraft:river": "2025-05-18 17:37:21 +0800",
       "minecraft:lukewarm_ocean": "2025-05-20 15:10:48 +0800",
@@ -64,6 +67,7 @@
       "minecraft:grove": "2025-05-18 23:31:41 +0800",
       "minecraft:swamp": "2025-05-20 15:02:40 +0800",
       "minecraft:meadow": "2025-05-18 17:38:45 +0800",
+      "minecraft:windswept_gravelly_hills": "2025-06-06 00:19:20 +0800",
       "minecraft:savanna": "2025-05-20 15:11:00 +0800",
       "minecraft:plains": "2025-05-18 17:33:07 +0800",
       "minecraft:jagged_peaks": "2025-05-20 17:54:22 +0800",
@@ -3083,87 +3087,15 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "minecraft:nether/find_bastion": {
     "criteria": {
-      "log_spam_fixer": "2025-06-02 00:37:47 +0800"
+      "bastion": "2025-06-01 23:58:08 +0800"
     },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-02 00:37:47 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-02 00:37:47 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-02 00:37:47 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-02 00:37:47 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-02 00:37:47 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-02 00:37:47 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-02 00:37:47 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-02 00:37:47 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-02 00:37:47 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-02 00:37:47 +0800"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-02 00:37:47 +0800"
-    },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-06-02 00:01:15 +0800"
-    },
-    "done": true
-  },
-  "minecraft:adventure/overoverkill": {
-    "criteria": {
-      "overoverkill": "2025-06-02 00:15:15 +0800"
     },
     "done": true
   },
@@ -3233,18 +3165,6 @@
     },
     "done": true
   },
-  "minecraft:nether/loot_bastion": {
-    "criteria": {
-      "loot_bastion_treasure": "2025-06-02 00:03:24 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
-    "criteria": {
-      "has_iron_block": "2025-06-02 00:03:30 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-06-02 00:01:15 +0800"
@@ -3263,9 +3183,21 @@
     },
     "done": true
   },
-  "minecraft:nether/find_bastion": {
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
     "criteria": {
-      "bastion": "2025-06-01 23:58:08 +0800"
+      "has_blackstone": "2025-06-02 00:01:15 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_treasure": "2025-06-02 00:03:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-06-02 00:03:30 +0800"
     },
     "done": true
   },
@@ -3275,15 +3207,148 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+  "minecraft:adventure/overoverkill": {
     "criteria": {
-      "has_blackstone": "2025-06-02 00:01:15 +0800"
+      "overoverkill": "2025-06-02 00:15:15 +0800"
     },
     "done": true
   },
   "minecraft:adventure/who_needs_rockets": {
     "criteria": {
       "who_needs_rockets": "2025-06-02 00:23:51 +0800"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-06 00:41:43 +0800"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-06 00:41:43 +0800"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-06 00:41:43 +0800"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "requirement": "2025-06-06 00:42:07 +0800",
+      "log_spam_fixer": "2025-06-06 00:41:43 +0800"
+    },
+    "done": true
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-06 00:41:43 +0800"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-06 00:41:43 +0800"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-06 00:41:43 +0800"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-06 00:41:43 +0800"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-06 00:41:43 +0800"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-06 00:41:43 +0800"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-06 00:41:43 +0800"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-06 00:41:43 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
+    "criteria": {
+      "has_dark_prismarine": "2025-06-06 00:20:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-06-06 00:36:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab": {
+    "criteria": {
+      "has_dark_prismarine": "2025-06-06 00:20:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bolt_armor_trim_smithing_template": {
+    "criteria": {
+      "has_bolt_armor_trim_smithing_template": "2025-06-06 00:40:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/host_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-06-06 00:40:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2025-06-06 00:36:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2025-06-06 00:20:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/host_armor_trim_smithing_template": {
+    "criteria": {
+      "has_host_armor_trim_smithing_template": "2025-06-06 00:40:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bolt_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-06-06 00:40:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2025-06-06 00:20:07 +0800"
     },
     "done": true
   },

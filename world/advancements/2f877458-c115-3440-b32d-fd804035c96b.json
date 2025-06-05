@@ -32,6 +32,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:deep_cold_ocean": "2025-06-02 00:16:56 +0800",
+      "minecraft:mushroom_fields": "2025-06-06 00:21:21 +0800",
       "minecraft:forest": "2025-06-01 21:54:12 +0800",
       "minecraft:taiga": "2025-06-01 21:54:17 +0800",
       "minecraft:meadow": "2025-06-02 00:07:07 +0800"
