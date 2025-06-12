@@ -411,12 +411,15 @@
       "minecraft:husk": "2025-05-20 15:14:16 +0800",
       "minecraft:ghast": "2025-05-20 00:33:27 +0800",
       "minecraft:piglin": "2025-05-18 22:53:38 +0800",
+      "minecraft:vindicator": "2025-06-12 23:52:53 +0800",
       "minecraft:enderman": "2025-05-19 01:42:30 +0800",
       "minecraft:spider": "2025-05-18 23:33:28 +0800",
       "minecraft:piglin_brute": "2025-06-01 23:57:27 +0800",
+      "minecraft:vex": "2025-06-12 23:51:43 +0800",
       "minecraft:zombie": "2025-05-18 23:25:12 +0800",
       "minecraft:creeper": "2025-05-18 23:25:12 +0800",
-      "minecraft:drowned": "2025-05-20 15:28:27 +0800"
+      "minecraft:drowned": "2025-05-20 15:28:27 +0800",
+      "minecraft:evoker": "2025-06-12 23:51:21 +0800"
     },
     "done": false
   },
@@ -3625,76 +3628,99 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2025-06-12 23:51:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
+    "criteria": {
+      "has_polished_andesite": "2025-06-12 23:51:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2025-06-12 23:51:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2025-06-12 23:51:54 +0800"
+    },
+    "done": true
+  },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-06-10 23:41:34 +0800"
+      "log_spam_fixer": "2025-06-13 00:28:59 +0800"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-06-10 23:41:34 +0800"
+      "log_spam_fixer": "2025-06-13 00:28:59 +0800"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-06-10 23:41:34 +0800"
+      "log_spam_fixer": "2025-06-13 00:28:59 +0800"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2025-06-10 23:42:09 +0800",
-      "log_spam_fixer": "2025-06-10 23:41:34 +0800"
+      "log_spam_fixer": "2025-06-13 00:28:59 +0800"
     },
-    "done": true
+    "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-06-10 23:41:34 +0800"
+      "log_spam_fixer": "2025-06-13 00:28:59 +0800"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-06-10 23:41:34 +0800"
+      "log_spam_fixer": "2025-06-13 00:28:59 +0800"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-06-10 23:41:34 +0800"
+      "log_spam_fixer": "2025-06-13 00:28:59 +0800"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-06-10 23:41:34 +0800"
+      "log_spam_fixer": "2025-06-13 00:28:59 +0800"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-06-10 23:41:34 +0800"
+      "log_spam_fixer": "2025-06-13 00:28:59 +0800"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-06-10 23:41:34 +0800"
+      "log_spam_fixer": "2025-06-13 00:28:59 +0800"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-06-10 23:41:34 +0800"
+      "log_spam_fixer": "2025-06-13 00:28:59 +0800"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-06-10 23:41:34 +0800"
+      "log_spam_fixer": "2025-06-13 00:28:59 +0800"
     },
     "done": false
   },
