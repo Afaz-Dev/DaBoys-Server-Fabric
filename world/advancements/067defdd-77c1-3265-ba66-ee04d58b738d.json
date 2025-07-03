@@ -37,6 +37,7 @@
       "minecraft:forest": "2025-05-09 15:33:51 +0800",
       "minecraft:taiga": "2025-05-18 18:06:25 +0800",
       "minecraft:deep_ocean": "2025-05-18 18:22:24 +0800",
+      "minecraft:lush_caves": "2025-07-03 23:06:01 +0800",
       "minecraft:deep_cold_ocean": "2025-05-18 18:07:37 +0800",
       "minecraft:frozen_ocean": "2025-05-20 15:47:35 +0800",
       "minecraft:desert": "2025-05-20 15:11:03 +0800",
@@ -50,7 +51,9 @@
       "minecraft:windswept_hills": "2025-05-20 15:02:16 +0800",
       "minecraft:old_growth_spruce_taiga": "2025-05-20 00:23:57 +0800",
       "minecraft:snowy_beach": "2025-05-20 15:47:34 +0800",
+      "minecraft:wooded_badlands": "2025-07-03 22:46:03 +0800",
       "minecraft:windswept_savanna": "2025-06-10 23:14:08 +0800",
+      "minecraft:warm_ocean": "2025-07-03 22:46:31 +0800",
       "minecraft:deep_lukewarm_ocean": "2025-06-06 00:22:01 +0800",
       "minecraft:badlands": "2025-05-20 15:11:07 +0800",
       "minecraft:flower_forest": "2025-05-18 17:37:48 +0800",
@@ -410,8 +413,10 @@
       "minecraft:wither_skeleton": "2025-05-21 23:36:58 +0800",
       "minecraft:husk": "2025-05-20 15:14:16 +0800",
       "minecraft:ghast": "2025-05-20 00:33:27 +0800",
+      "minecraft:cave_spider": "2025-07-03 23:20:24 +0800",
       "minecraft:piglin": "2025-05-18 22:53:38 +0800",
       "minecraft:vindicator": "2025-06-12 23:52:53 +0800",
+      "minecraft:breeze": "2025-07-03 23:41:51 +0800",
       "minecraft:enderman": "2025-05-19 01:42:30 +0800",
       "minecraft:spider": "2025-05-18 23:33:28 +0800",
       "minecraft:piglin_brute": "2025-06-01 23:57:27 +0800",
@@ -3672,75 +3677,274 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-06-15 00:21:17 +0800"
+      "log_spam_fixer": "2025-07-04 00:18:45 +0800"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-06-15 00:21:17 +0800"
+      "log_spam_fixer": "2025-07-04 00:18:45 +0800"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-06-15 00:21:17 +0800"
+      "log_spam_fixer": "2025-07-04 00:18:45 +0800"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-06-15 00:21:17 +0800"
+      "requirement": "2025-07-04 00:19:08 +0800",
+      "log_spam_fixer": "2025-07-04 00:18:45 +0800"
     },
-    "done": false
+    "done": true
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-06-15 00:21:17 +0800"
+      "log_spam_fixer": "2025-07-04 00:18:45 +0800"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-06-15 00:21:17 +0800"
+      "log_spam_fixer": "2025-07-04 00:18:45 +0800"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-06-15 00:21:17 +0800"
+      "log_spam_fixer": "2025-07-04 00:18:45 +0800"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-06-15 00:21:17 +0800"
+      "log_spam_fixer": "2025-07-04 00:18:45 +0800"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-06-15 00:21:17 +0800"
+      "log_spam_fixer": "2025-07-04 00:18:45 +0800"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-06-15 00:21:17 +0800"
+      "log_spam_fixer": "2025-07-04 00:18:45 +0800"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-06-15 00:21:17 +0800"
+      "log_spam_fixer": "2025-07-04 00:18:45 +0800"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-06-15 00:21:17 +0800"
+      "log_spam_fixer": "2025-07-04 00:18:45 +0800"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2025-07-03 22:57:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2025-07-03 23:31:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2025-07-03 23:40:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2025-07-04 00:16:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-07-03 23:51:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-07-03 23:51:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/under_lock_and_key": {
+    "criteria": {
+      "under_lock_and_key": "2025-07-03 23:45:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/revaulting": {
+    "criteria": {
+      "revaulting": "2025-07-03 23:52:58 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2025-07-03 23:52:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-07-03 22:52:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/mace": {
+    "criteria": {
+      "has_breeze_rod": "2025-07-03 23:41:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall": {
+    "criteria": {
+      "has_tuff_bricks": "2025-07-03 23:52:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2025-07-03 23:52:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-07-03 22:52:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-07-03 22:52:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wind_charge": {
+    "criteria": {
+      "has_breeze_rod": "2025-07-03 23:41:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_red_dye": "2025-07-03 22:52:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_red_dye": "2025-07-03 22:52:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2025-07-04 00:16:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2025-07-03 23:52:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs": {
+    "criteria": {
+      "has_tuff_bricks": "2025-07-03 23:52:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-07-03 23:51:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_candle": {
+    "criteria": {
+      "has_red_dye": "2025-07-03 22:52:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2025-07-03 23:52:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/red_bundle": {
+    "criteria": {
+      "has_red_dye": "2025-07-03 22:52:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2025-07-04 00:16:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_red_dye": "2025-07-03 22:52:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_red_dye": "2025-07-03 22:52:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2025-07-03 23:35:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_rose_red": "2025-07-03 22:52:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab": {
+    "criteria": {
+      "has_tuff_bricks": "2025-07-03 23:52:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2025-07-03 23:35:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-07-03 23:35:12 +0800"
+    },
+    "done": true
   },
   "DataVersion": 4189
 }
