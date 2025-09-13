@@ -40,7 +40,7 @@ REM You can change RAM settings here
 REM Set the maximum and minimum RAM for the server
 
 echo Starting server...
-java -Xmx16G -Xms16G -jar fabric-server-mc.1.21.4-loader.0.16.10-launcher.1.0.1.jar
+java -Xmx8G -Xms8G -jar fabric-server-mc.1.21.4-loader.0.16.10-launcher.1.0.1.jar
 
 
 
